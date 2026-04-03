@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="Lesson1_1_html_giris/Lesson1_1_html_giris.csproj" Id="fcadeeef-38f8-48cc-9fbe-b00063b5fd27" />
   <Project Path="Lesson1_2_Html_CSS/Lesson1_2_Html_CSS.csproj" Id="5ea395a1-5e46-4e56-934d-37b8d9f073e0" />
+  <Project Path="Lesson2_1_HTML_CSS/Lesson2_1_HTML_CSS.csproj" Id="5957cd6c-7e37-4afa-8d8f-fef899673ca6" />
+  <Project Path="Lesson2_2_css_class_id/Lesson2_2_css_class_id.csproj" Id="e98d6a05-ca36-46cd-a664-62b53e6ab688" />
 </Solution>

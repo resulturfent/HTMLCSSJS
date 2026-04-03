@@ -1,0 +1,37 @@
+﻿
+
+div {
+    color: red;
+    background-color: yellow;
+    /*width:250px;*/
+    width: 48%; /*div taginin genişliği sayfanın %50 si kadar olsun*/
+    /**/
+}
+
+    div h3 { /* div altındaki h3 tag lerine yapılacak css ayarları*/
+
+        text-align: center; /*yazının tag içindeki konumu left(sol)-center(ortala)-right(sağ)*/
+        color: blue;
+    }
+
+    div section {
+        background-color: lightgray; /*<zemin rengi*/
+        color: black;
+    }
+
+        div section h3 { /*div altında section, section altındaki h3 için css ayarları*/
+            color: brown;
+        }
+
+thead tr {
+    color: aqua; /*yazı rengi color*/
+}
+
+
+    thead tr td {
+        border: 2px double #e13535; /*sınırları(çevresi) için sırasıyla => çizgi kalınlığı(2px), çizgi tipi(solid), çizgi rengi */
+    }
+
+div p {
+    color: springgreen;
+}
