@@ -1,0 +1,109 @@
+﻿/*
+        class için .(nokta) kulllanılır
+        id için #(diyez) kullanılır
+
+        */
+.anaDiv {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px; /*top, right, button, left yani 4 taraf için 20 px içerden sınır uzantısı verir*/
+    /* padding: 5px 10px 25px 50px;sırasıyla top(üst),right(sağ),button(alt), left(sol) parametre alır  */
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+    .anaDiv h4 {
+        color: blue;
+    }
+
+/*    .anaDiv p {
+            color:brown;
+            } */
+.baslik1 {
+    background-color: #e1e1e1;
+    padding: 25px;
+    color: darkgreen;
+    font-family: Britannic, Helvetica, sans-serif;
+}
+    /*
+        class html kodları içinde birden fazla yerde kullanılabilir, id sadece 1 kez kullanılabilir
+
+        */
+    .baslik1 h4 {
+        /*float:revert;*/
+        text-align: center;
+    }
+/*  .baslik1 h3{
+        float:right;
+        } */
+
+#id2 {
+    background-color: aqua;
+    padding: 35px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+}
+
+.baslik2 {
+    background-color: blueviolet;
+    padding: 25px;
+    color: chocolate;
+    font-family: 'Calisto MT', Helvetica, sans-serif;
+}
+
+.responsibility1 {
+    float: left;
+    width: 40%;
+}
+
+.responsibility2 {
+    float: right;
+    width: 40%;
+}
+
+.responsibility3 {
+    float: right;
+    width: 20%;
+}
+
+@media(max-width:972px) {
+    /*max ekran genişliği 972px olduğunda aşağıdaki özellikleri uygula*/
+    /*responsive tasarım için kullanılır*/
+    .responsibility1 {
+        float: left;
+        width: 35%;
+        background-color: yellow;
+    }
+
+    .responsibility2 {
+        float: right;
+        width: 35%;
+    }
+
+    .responsibility3 {
+        float: right;
+        width: 30%;
+    }
+}
+
+@media(max-width:576px) {
+    /*max ekran genişliği 576px olduğunda aşağıdaki özellikleri uygula*/
+    /*responsive tasarım için kullanılır*/
+    .responsibility1 {
+        float: left;
+        width: 20%;
+        background-color: brown;
+    }
+
+    .responsibility2 {
+        float: right;
+        width: 35%;
+    }
+
+    .responsibility3 {
+        float: right;
+        width: 45%;
+    }
+}
