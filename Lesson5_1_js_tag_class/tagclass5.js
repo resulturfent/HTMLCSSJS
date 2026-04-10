@@ -36,7 +36,7 @@ function TagNameFunction() {
 
     for (var i = 0; i < tagList.length; i++) {
         //setAttribute() ile istediğimiz tag'e istediğimiz özelliği verebiliriz, değiştirebiliriz. Örneğin type'ı button yapabiliriz.
-        //setAttribute 2 parametre alır, ilk parametre hangi özelliği değiştireceğimizi belirtir(tag attiribute adı), ikinci parametre ise o özelliğin ne olacağını belirtir.
+        //setAttribute 2 parametre alır, ilk parametre hangi özelliği değiştireceğimizi belirtir(tag attribute adı), ikinci parametre ise o özelliğin ne olacağını belirtir.
         tagList[i].setAttribute("class", "alan2");
     }
 
